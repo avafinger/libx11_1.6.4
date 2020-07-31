@@ -1,0 +1,15 @@
+Package: libx11-xcb1-dbgsym
+Package-Type: ddeb
+Source: libx11
+Version: 2:1.6.4-3ubuntu0.3
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 29
+Depends: libx11-xcb1 (= 2:1.6.4-3ubuntu0.3)
+Section: debug
+Priority: optional
+Multi-Arch: same
+Description: debug symbols for libx11-xcb1
+Build-Ids: 4d20db1ed6ef0dbad19d4eddf754ce3e743fabb9
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>

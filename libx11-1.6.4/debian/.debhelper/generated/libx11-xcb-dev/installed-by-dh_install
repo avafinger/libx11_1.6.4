@@ -1,0 +1,14 @@
+debian/tmp/usr/share/man/man3/XGetXCBConnection.3
+debian/tmp/usr/share/man/man3/XSetEventQueueOwner.3
+debian/tmp/usr/lib/x86_64-linux-gnu/libX11-xcb.a
+debian/tmp/usr/lib/x86_64-linux-gnu/libX11-xcb.so
+debian/tmp/usr/lib/x86_64-linux-gnu/pkgconfig/x11-xcb.pc
+debian/tmp/usr/lib/x86_64-linux-gnu/libX11-xcb.a
+debian/tmp/usr/lib/x86_64-linux-gnu/libX11-xcb.so
+debian/tmp/usr/lib/x86_64-linux-gnu/pkgconfig/x11-xcb.pc
+debian/tmp/usr/include/X11/Xlib-xcb.h
+debian/tmp/usr/share/man/man3/XGetXCBConnection.3
+debian/tmp/usr/share/man/man3/XSetEventQueueOwner.3
+debian/tmp/usr/lib/x86_64-linux-gnu/libX11-xcb.a
+debian/tmp/usr/lib/x86_64-linux-gnu/libX11-xcb.so
+debian/tmp/usr/lib/x86_64-linux-gnu/pkgconfig/x11-xcb.pc

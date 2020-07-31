@@ -1,0 +1,19 @@
+Package: libx11-data
+Source: libx11
+Version: 2:1.6.4-3ubuntu0.3
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1503
+Breaks: libx11-6 (<< 2:1.4.1)
+Section: x11
+Priority: optional
+Multi-Arch: foreign
+Description: X11 client-side library
+ This package provides the locale data files for libx11.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libX11
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>

@@ -1,0 +1,10 @@
+libx11-6-dbgsym_1.6.4-3ubuntu0.3_amd64.ddeb debug optional
+libx11-6-udeb_1.6.4-3ubuntu0.3_amd64.udeb debian-installer optional
+libx11-6_1.6.4-3ubuntu0.3_amd64.deb libs optional
+libx11-data_1.6.4-3ubuntu0.3_all.deb x11 optional
+libx11-dev_1.6.4-3ubuntu0.3_amd64.deb libdevel optional
+libx11-doc_1.6.4-3ubuntu0.3_all.deb doc optional
+libx11-xcb-dev_1.6.4-3ubuntu0.3_amd64.deb libdevel optional
+libx11-xcb1-dbgsym_1.6.4-3ubuntu0.3_amd64.ddeb debug optional
+libx11-xcb1_1.6.4-3ubuntu0.3_amd64.deb libs optional
+libx11_1.6.4-3ubuntu0.3_amd64.buildinfo x11 optional

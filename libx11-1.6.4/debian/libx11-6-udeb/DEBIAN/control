@@ -1,0 +1,12 @@
+Package: libx11-6-udeb
+Source: libx11
+Version: 2:1.6.4-3ubuntu0.3
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1297
+Depends: libc6-udeb (>= 2.27), libxcb1-udeb (>= 1.12)
+Section: debian-installer
+Priority: optional
+Description: X11 client-side library
+ This is a udeb, or a microdeb, for the debian-installer.
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>

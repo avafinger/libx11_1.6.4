@@ -1,0 +1,238 @@
+Format: 1.0
+Source: libx11
+Binary: libx11-6 libx11-6-udeb libx11-data libx11-dev libx11-xcb1 libx11-xcb-dev libx11-doc
+Architecture: all amd64
+Version: 2:1.6.4-3ubuntu0.3
+Checksums-Md5:
+ b6eac0e988c880544c815a9c77d57a2b 3262724 libx11-6-dbgsym_1.6.4-3ubuntu0.3_amd64.ddeb
+ 0a1dd4c197c0eb898c89835f9e39f4df 559328 libx11-6-udeb_1.6.4-3ubuntu0.3_amd64.udeb
+ d0afaa9ad3695d30191bb189724aa91b 581316 libx11-6_1.6.4-3ubuntu0.3_amd64.deb
+ bf0d4c5d0622e23f34870ad95f4ff43b 124156 libx11-data_1.6.4-3ubuntu0.3_all.deb
+ a94f8a167a27c4c078fe8ce97bf1d5ca 655452 libx11-dev_1.6.4-3ubuntu0.3_amd64.deb
+ d77e7286a1d26325a147798d84a02677 2075996 libx11-doc_1.6.4-3ubuntu0.3_all.deb
+ 480fd5aeab84ea2cf1fd2858b7c7421d 22272 libx11-xcb-dev_1.6.4-3ubuntu0.3_amd64.deb
+ bb3eb181981a8fb7104084543c841fa9 16380 libx11-xcb1-dbgsym_1.6.4-3ubuntu0.3_amd64.ddeb
+ 10a02281f77386213ce43f94b61b715c 20104 libx11-xcb1_1.6.4-3ubuntu0.3_amd64.deb
+Checksums-Sha1:
+ ad29401d5d430af497a1000b26f01f5900619cfd 3262724 libx11-6-dbgsym_1.6.4-3ubuntu0.3_amd64.ddeb
+ d79795aa61e0be929b546b53fb6c1bc3c3f320b6 559328 libx11-6-udeb_1.6.4-3ubuntu0.3_amd64.udeb
+ 320f757a3c01df7e229976db8f275d2d71b76edb 581316 libx11-6_1.6.4-3ubuntu0.3_amd64.deb
+ 62dfc0d9085f1e3d75c552ebb7452bf6950584b8 124156 libx11-data_1.6.4-3ubuntu0.3_all.deb
+ af2440ed115fef4cc82b1dd54aca6a74721b7606 655452 libx11-dev_1.6.4-3ubuntu0.3_amd64.deb
+ e69c208f36e3abd4d32167bf2f5dbfda068ba9d6 2075996 libx11-doc_1.6.4-3ubuntu0.3_all.deb
+ fd4e6e14bdc0dded813ec6effb04af5507d90993 22272 libx11-xcb-dev_1.6.4-3ubuntu0.3_amd64.deb
+ 1fc7233d94e19580c61f7e78bf7ed45dce9134eb 16380 libx11-xcb1-dbgsym_1.6.4-3ubuntu0.3_amd64.ddeb
+ 9192729e92f31796263243a36927f6ef9958efe8 20104 libx11-xcb1_1.6.4-3ubuntu0.3_amd64.deb
+Checksums-Sha256:
+ bab9c829b39f60804fbbc6445b85616168adcb28efcd289973934a1509fc4f3f 3262724 libx11-6-dbgsym_1.6.4-3ubuntu0.3_amd64.ddeb
+ 28ca0dcc94b8a7ba2eaf655f377312f953e3222920594eaa98305f49262d1120 559328 libx11-6-udeb_1.6.4-3ubuntu0.3_amd64.udeb
+ cbe829c415c08ac6f44b96e7f6e70d42daf29948a55fd2b2d45c76aa3ff2367a 581316 libx11-6_1.6.4-3ubuntu0.3_amd64.deb
+ 528c17f2e022542f3d27cc9533a68d65590d4cb8ca80e0bbd0d039d61c17e4b1 124156 libx11-data_1.6.4-3ubuntu0.3_all.deb
+ f1b97e84d4e9708bcd498cd30650b93350e5c911bb157f49761644e45085e4af 655452 libx11-dev_1.6.4-3ubuntu0.3_amd64.deb
+ 46fdb09182649a7b7aa802364abe1aa498f71368116ebe7bfa4d50a50c3ae2f5 2075996 libx11-doc_1.6.4-3ubuntu0.3_all.deb
+ 48663ff7e821d051f0b9f7b6ff5f2cdf81a43bf009c9a651d11f4aa6def4ab18 22272 libx11-xcb-dev_1.6.4-3ubuntu0.3_amd64.deb
+ 77a9ea327013a92e7c408d827557b67e6f117e22a644b608302ff2bfcd38882e 16380 libx11-xcb1-dbgsym_1.6.4-3ubuntu0.3_amd64.ddeb
+ 5fae1695f929e69cf1bc0eb60a9dc2198ce4e3270e848467c819eaa104da72aa 20104 libx11-xcb1_1.6.4-3ubuntu0.3_amd64.deb
+Build-Origin: Ubuntu
+Build-Architecture: amd64
+Build-Date: Fri, 31 Jul 2020 18:41:30 -0300
+Installed-Build-Depends:
+ autoconf (= 2.69-11),
+ automake (= 1:1.15.1-3ubuntu2),
+ autopoint (= 0.19.8.1-6ubuntu0.3),
+ autotools-dev (= 20180224.1),
+ base-files (= 10.1ubuntu2.8),
+ base-passwd (= 3.5.44),
+ bash (= 4.4.18-2ubuntu1.2),
+ binutils (= 2.30-21ubuntu1~18.04.4),
+ binutils-common (= 2.30-21ubuntu1~18.04.4),
+ binutils-x86-64-linux-gnu (= 2.30-21ubuntu1~18.04.4),
+ bsdmainutils (= 11.1.2ubuntu1),
+ bsdutils (= 1:2.31.1-0.4ubuntu3.6),
+ build-essential (= 12.4ubuntu1),
+ bzip2 (= 1.0.6-8.1ubuntu0.2),
+ coreutils (= 8.28-1ubuntu1),
+ cpp (= 4:7.4.0-1ubuntu2.3),
+ cpp-4.8 (= 4.8.5-4ubuntu8),
+ cpp-5 (= 5.5.0-12ubuntu1),
+ cpp-7 (= 7.5.0-3ubuntu1~18.04),
+ dash (= 0.5.8-2.10),
+ debconf (= 1.5.66ubuntu1),
+ debhelper (= 11.1.6ubuntu2),
+ debianutils (= 4.8.4),
+ dh-autoreconf (= 17),
+ dh-strip-nondeterminism (= 0.040-1.1~build1),
+ diffstat (= 1.61-1build1),
+ diffutils (= 1:3.6-1),
+ docbook-xml (= 4.5-8),
+ docbook-xsl (= 1.79.1+dfsg-2),
+ dpkg (= 1.19.0.5ubuntu2.3),
+ dpkg-dev (= 1.19.0.5ubuntu2.3),
+ e2fsprogs (= 1.44.1-1ubuntu1.3),
+ fdisk (= 2.31.1-0.4ubuntu3.6),
+ file (= 1:5.32-2ubuntu0.4),
+ findutils (= 4.6.0+git+20170828-2),
+ g++ (= 4:7.4.0-1ubuntu2.3),
+ g++-7 (= 7.5.0-3ubuntu1~18.04),
+ gawk (= 1:4.1.4+dfsg-1build1),
+ gcc (= 4:7.4.0-1ubuntu2.3),
+ gcc-4.8 (= 4.8.5-4ubuntu8),
+ gcc-4.8-base (= 4.8.5-4ubuntu8),
+ gcc-5 (= 5.5.0-12ubuntu1),
+ gcc-5-base (= 5.5.0-12ubuntu1),
+ gcc-7 (= 7.5.0-3ubuntu1~18.04),
+ gcc-7-base (= 7.5.0-3ubuntu1~18.04),
+ gcc-8-base (= 8.4.0-1ubuntu1~18.04),
+ gettext (= 0.19.8.1-6ubuntu0.3),
+ gettext-base (= 0.19.8.1-6ubuntu0.3),
+ grep (= 3.1-2build1),
+ groff-base (= 1.22.3-10),
+ gzip (= 1.6-5ubuntu1),
+ hostname (= 3.20),
+ init-system-helpers (= 1.51),
+ install-info (= 6.5.0.dfsg.1-2),
+ intltool-debian (= 0.35.0+20060710.4),
+ libacl1 (= 2.2.52-3build1),
+ libarchive-zip-perl (= 1.60-1ubuntu0.1),
+ libasan0 (= 4.8.5-4ubuntu8),
+ libasan2 (= 5.5.0-12ubuntu1),
+ libasan4 (= 7.5.0-3ubuntu1~18.04),
+ libatomic1 (= 8.4.0-1ubuntu1~18.04),
+ libattr1 (= 1:2.4.47-2build1),
+ libaudit-common (= 1:2.8.2-1ubuntu1),
+ libaudit1 (= 1:2.8.2-1ubuntu1),
+ libbinutils (= 2.30-21ubuntu1~18.04.4),
+ libblkid1 (= 2.31.1-0.4ubuntu3.6),
+ libbsd0 (= 0.8.7-1ubuntu0.1),
+ libbz2-1.0 (= 1.0.6-8.1ubuntu0.2),
+ libc-bin (= 2.27-3ubuntu1.2),
+ libc-dev-bin (= 2.27-3ubuntu1.2),
+ libc6 (= 2.27-3ubuntu1.2),
+ libc6-dev (= 2.27-3ubuntu1.2),
+ libcap-ng0 (= 0.7.7-3.1),
+ libcc1-0 (= 8.4.0-1ubuntu1~18.04),
+ libcilkrts5 (= 7.5.0-3ubuntu1~18.04),
+ libcom-err2 (= 1.44.1-1ubuntu1.3),
+ libcroco3 (= 0.6.12-2),
+ libdb5.3 (= 5.3.28-13.1ubuntu1.1),
+ libdebconfclient0 (= 0.213ubuntu1),
+ libdpkg-perl (= 1.19.0.5ubuntu2.3),
+ libext2fs2 (= 1.44.1-1ubuntu1.3),
+ libfdisk1 (= 2.31.1-0.4ubuntu3.6),
+ libffi6 (= 3.2.1-8),
+ libfile-stripnondeterminism-perl (= 0.040-1.1~build1),
+ libgc1c2 (= 1:7.4.2-8ubuntu1),
+ libgcc-4.8-dev (= 4.8.5-4ubuntu8),
+ libgcc-5-dev (= 5.5.0-12ubuntu1),
+ libgcc-7-dev (= 7.5.0-3ubuntu1~18.04),
+ libgcc1 (= 1:8.4.0-1ubuntu1~18.04),
+ libgcrypt20 (= 1.8.1-4ubuntu1.2),
+ libgdbm-compat4 (= 1.14.1-6),
+ libgdbm5 (= 1.14.1-6),
+ libglib2.0-0 (= 2.56.4-0ubuntu0.18.04.6),
+ libgmp10 (= 2:6.1.2+dfsg-2),
+ libgomp1 (= 8.4.0-1ubuntu1~18.04),
+ libgpg-error0 (= 1.27-6),
+ libgpm2 (= 1.20.7-5),
+ libicu60 (= 60.2-3ubuntu3.1),
+ libisl15 (= 0.18-4),
+ libisl19 (= 0.19-1),
+ libitm1 (= 8.4.0-1ubuntu1~18.04),
+ liblsan0 (= 8.4.0-1ubuntu1~18.04),
+ liblz4-1 (= 0.0~r131-2ubuntu3),
+ liblzma5 (= 5.2.2-1.3),
+ libmagic-mgc (= 1:5.32-2ubuntu0.4),
+ libmagic1 (= 1:5.32-2ubuntu0.4),
+ libmount1 (= 2.31.1-0.4ubuntu3.6),
+ libmpc3 (= 1.1.0-1),
+ libmpfr6 (= 4.0.1-1),
+ libmpx0 (= 5.5.0-12ubuntu1),
+ libmpx2 (= 8.4.0-1ubuntu1~18.04),
+ libncursesw5 (= 6.1-1ubuntu1.18.04),
+ libpam-modules (= 1.1.8-3.6ubuntu2.18.04.2),
+ libpam-modules-bin (= 1.1.8-3.6ubuntu2.18.04.2),
+ libpam-runtime (= 1.1.8-3.6ubuntu2.18.04.2),
+ libpam0g (= 1.1.8-3.6ubuntu2.18.04.2),
+ libpcre3 (= 2:8.39-9),
+ libperl5.26 (= 5.26.1-6ubuntu0.3),
+ libpipeline1 (= 1.5.0-1),
+ libpthread-stubs0-dev (= 0.3-4),
+ libquadmath0 (= 8.4.0-1ubuntu1~18.04),
+ libreadline7 (= 7.0-3),
+ libseccomp2 (= 2.4.3-1ubuntu3.18.04.3),
+ libselinux1 (= 2.7-2build2),
+ libsigsegv2 (= 2.12-1),
+ libsmartcols1 (= 2.31.1-0.4ubuntu3.6),
+ libss2 (= 1.44.1-1ubuntu1.3),
+ libssl1.1 (= 1.1.1-1ubuntu2.1~18.04.6),
+ libstdc++-7-dev (= 7.5.0-3ubuntu1~18.04),
+ libstdc++6 (= 8.4.0-1ubuntu1~18.04),
+ libsystemd0 (= 237-3ubuntu10.42),
+ libtimedate-perl (= 2.3000-2),
+ libtinfo5 (= 6.1-1ubuntu1.18.04),
+ libtool (= 2.4.6-2),
+ libtsan0 (= 8.4.0-1ubuntu1~18.04),
+ libubsan0 (= 7.5.0-3ubuntu1~18.04),
+ libudev1 (= 237-3ubuntu10.42),
+ libunistring2 (= 0.9.9-0ubuntu2),
+ libuuid1 (= 2.31.1-0.4ubuntu3.6),
+ libxau-dev (= 1:1.0.8-1ubuntu1),
+ libxau6 (= 1:1.0.8-1ubuntu1),
+ libxcb1 (= 1.13-2~ubuntu18.04),
+ libxcb1-dev (= 1.13-2~ubuntu18.04),
+ libxdmcp-dev (= 1:1.1.2-3),
+ libxdmcp6 (= 1:1.1.2-3),
+ libxml2 (= 2.9.4+dfsg1-6.1ubuntu1.3),
+ libxml2-utils (= 2.9.4+dfsg1-6.1ubuntu1.3),
+ libxslt1.1 (= 1.1.29-5ubuntu0.2),
+ libzstd1 (= 1.3.3+dfsg-2ubuntu1.1),
+ linux-libc-dev (= 4.15.0-112.113),
+ login (= 1:4.5-1ubuntu2.1),
+ m4 (= 1.4.18-1),
+ make (= 4.1-9.1ubuntu1),
+ man-db (= 2.8.3-2ubuntu0.1),
+ mawk (= 1.3.3-17ubuntu3),
+ ncurses-base (= 6.1-1ubuntu1.18.04),
+ ncurses-bin (= 6.1-1ubuntu1.18.04),
+ patch (= 2.7.6-2ubuntu1.1),
+ perl (= 5.26.1-6ubuntu0.3),
+ perl-base (= 5.26.1-6ubuntu0.3),
+ perl-modules-5.26 (= 5.26.1-6ubuntu0.3),
+ pkg-config (= 0.29.1-0ubuntu2),
+ po-debconf (= 1.0.20),
+ quilt (= 0.63-8.2),
+ readline-common (= 7.0-3),
+ sed (= 4.4-2),
+ sgml-base (= 1.29),
+ sgml-data (= 2.0.10),
+ sysvinit-utils (= 2.88dsf-59.10ubuntu1),
+ tar (= 1.29b-2ubuntu0.1),
+ util-linux (= 2.31.1-0.4ubuntu3.6),
+ w3m (= 0.5.3-36build1),
+ x11proto-core-dev (= 2018.4-4),
+ x11proto-dev (= 2018.4-4),
+ x11proto-input-dev (= 2018.4-4),
+ x11proto-xext-dev (= 2018.4-4),
+ x11proto-xf86bigfont-dev (= 2018.4-4),
+ xml-core (= 0.18),
+ xmlto (= 0.0.28-2),
+ xorg-sgml-doctools (= 1:1.11-1),
+ xsltproc (= 1.1.29-5ubuntu0.2),
+ xtrans-dev (= 1.3.5-1),
+ xutils-dev (= 1:7.7+5ubuntu1),
+ xz-utils (= 5.2.2-1.3),
+ zlib1g (= 1:1.2.11.dfsg-0ubuntu2)
+Environment:
+ DEB_BUILD_OPTIONS="parallel=2"
+ LANG="en_US.UTF-8"
+ LC_ADDRESS="pt_BR.UTF-8"
+ LC_CTYPE="pt_BR.UTF-8"
+ LC_IDENTIFICATION="pt_BR.UTF-8"
+ LC_MEASUREMENT="pt_BR.UTF-8"
+ LC_MONETARY="pt_BR.UTF-8"
+ LC_NAME="pt_BR.UTF-8"
+ LC_NUMERIC="pt_BR.UTF-8"
+ LC_PAPER="pt_BR.UTF-8"
+ LC_TELEPHONE="pt_BR.UTF-8"
+ LC_TIME="pt_BR.UTF-8"
+ SOURCE_DATE_EPOCH="1596046698"

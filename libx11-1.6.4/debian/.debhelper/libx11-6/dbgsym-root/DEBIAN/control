@@ -1,0 +1,15 @@
+Package: libx11-6-dbgsym
+Package-Type: ddeb
+Source: libx11
+Version: 2:1.6.4-3ubuntu0.3
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 3583
+Depends: libx11-6 (= 2:1.6.4-3ubuntu0.3)
+Section: debug
+Priority: optional
+Multi-Arch: same
+Description: debug symbols for libx11-6
+Build-Ids: a4651b3a5a862d300b183801d9256d2bd15ecd19
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>

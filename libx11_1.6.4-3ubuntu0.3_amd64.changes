@@ -1,0 +1,58 @@
+Format: 1.8
+Date: Wed, 29 Jul 2020 15:18:18 -0300
+Source: libx11
+Binary: libx11-6 libx11-6-udeb libx11-data libx11-dev libx11-xcb1 libx11-xcb-dev libx11-doc
+Architecture: amd64 all
+Version: 2:1.6.4-3ubuntu0.3
+Distribution: bionic
+Urgency: medium
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Changed-By: Alexander <alex.mobigo@gmail.com>
+Description:
+ libx11-6   - X11 client-side library
+ libx11-6-udeb - X11 client-side library (udeb)
+ libx11-data - X11 client-side library
+ libx11-dev - X11 client-side library (development headers)
+ libx11-doc - X11 client-side library (development documentation)
+ libx11-xcb-dev - Xlib/XCB interface library (development headers)
+ libx11-xcb1 - Xlib/XCB interface library
+Changes:
+ libx11 (2:1.6.4-3ubuntu0.3) bionic; urgency=medium
+ .
+   * Fix-poll_for_response-race-condition.diff: Fix freeze on
+     poll_for_response race condition
+Checksums-Sha1:
+ ad29401d5d430af497a1000b26f01f5900619cfd 3262724 libx11-6-dbgsym_1.6.4-3ubuntu0.3_amd64.ddeb
+ d79795aa61e0be929b546b53fb6c1bc3c3f320b6 559328 libx11-6-udeb_1.6.4-3ubuntu0.3_amd64.udeb
+ 320f757a3c01df7e229976db8f275d2d71b76edb 581316 libx11-6_1.6.4-3ubuntu0.3_amd64.deb
+ 62dfc0d9085f1e3d75c552ebb7452bf6950584b8 124156 libx11-data_1.6.4-3ubuntu0.3_all.deb
+ af2440ed115fef4cc82b1dd54aca6a74721b7606 655452 libx11-dev_1.6.4-3ubuntu0.3_amd64.deb
+ e69c208f36e3abd4d32167bf2f5dbfda068ba9d6 2075996 libx11-doc_1.6.4-3ubuntu0.3_all.deb
+ fd4e6e14bdc0dded813ec6effb04af5507d90993 22272 libx11-xcb-dev_1.6.4-3ubuntu0.3_amd64.deb
+ 1fc7233d94e19580c61f7e78bf7ed45dce9134eb 16380 libx11-xcb1-dbgsym_1.6.4-3ubuntu0.3_amd64.ddeb
+ 9192729e92f31796263243a36927f6ef9958efe8 20104 libx11-xcb1_1.6.4-3ubuntu0.3_amd64.deb
+ be70f21ad769cacb04149b70ddc0506bbb73d5d3 9235 libx11_1.6.4-3ubuntu0.3_amd64.buildinfo
+Checksums-Sha256:
+ bab9c829b39f60804fbbc6445b85616168adcb28efcd289973934a1509fc4f3f 3262724 libx11-6-dbgsym_1.6.4-3ubuntu0.3_amd64.ddeb
+ 28ca0dcc94b8a7ba2eaf655f377312f953e3222920594eaa98305f49262d1120 559328 libx11-6-udeb_1.6.4-3ubuntu0.3_amd64.udeb
+ cbe829c415c08ac6f44b96e7f6e70d42daf29948a55fd2b2d45c76aa3ff2367a 581316 libx11-6_1.6.4-3ubuntu0.3_amd64.deb
+ 528c17f2e022542f3d27cc9533a68d65590d4cb8ca80e0bbd0d039d61c17e4b1 124156 libx11-data_1.6.4-3ubuntu0.3_all.deb
+ f1b97e84d4e9708bcd498cd30650b93350e5c911bb157f49761644e45085e4af 655452 libx11-dev_1.6.4-3ubuntu0.3_amd64.deb
+ 46fdb09182649a7b7aa802364abe1aa498f71368116ebe7bfa4d50a50c3ae2f5 2075996 libx11-doc_1.6.4-3ubuntu0.3_all.deb
+ 48663ff7e821d051f0b9f7b6ff5f2cdf81a43bf009c9a651d11f4aa6def4ab18 22272 libx11-xcb-dev_1.6.4-3ubuntu0.3_amd64.deb
+ 77a9ea327013a92e7c408d827557b67e6f117e22a644b608302ff2bfcd38882e 16380 libx11-xcb1-dbgsym_1.6.4-3ubuntu0.3_amd64.ddeb
+ 5fae1695f929e69cf1bc0eb60a9dc2198ce4e3270e848467c819eaa104da72aa 20104 libx11-xcb1_1.6.4-3ubuntu0.3_amd64.deb
+ cdb1f5f696436ab433474b72f9a21e8914c6da825d010a6cd86661f408d53abf 9235 libx11_1.6.4-3ubuntu0.3_amd64.buildinfo
+Files:
+ b6eac0e988c880544c815a9c77d57a2b 3262724 debug optional libx11-6-dbgsym_1.6.4-3ubuntu0.3_amd64.ddeb
+ 0a1dd4c197c0eb898c89835f9e39f4df 559328 debian-installer optional libx11-6-udeb_1.6.4-3ubuntu0.3_amd64.udeb
+ d0afaa9ad3695d30191bb189724aa91b 581316 libs optional libx11-6_1.6.4-3ubuntu0.3_amd64.deb
+ bf0d4c5d0622e23f34870ad95f4ff43b 124156 x11 optional libx11-data_1.6.4-3ubuntu0.3_all.deb
+ a94f8a167a27c4c078fe8ce97bf1d5ca 655452 libdevel optional libx11-dev_1.6.4-3ubuntu0.3_amd64.deb
+ d77e7286a1d26325a147798d84a02677 2075996 doc optional libx11-doc_1.6.4-3ubuntu0.3_all.deb
+ 480fd5aeab84ea2cf1fd2858b7c7421d 22272 libdevel optional libx11-xcb-dev_1.6.4-3ubuntu0.3_amd64.deb
+ bb3eb181981a8fb7104084543c841fa9 16380 debug optional libx11-xcb1-dbgsym_1.6.4-3ubuntu0.3_amd64.ddeb
+ 10a02281f77386213ce43f94b61b715c 20104 libs optional libx11-xcb1_1.6.4-3ubuntu0.3_amd64.deb
+ 6b0e287c52861bfa28f2230f4b263ccd 9235 x11 optional libx11_1.6.4-3ubuntu0.3_amd64.buildinfo
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Package-Type: udeb
