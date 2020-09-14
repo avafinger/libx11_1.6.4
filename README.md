@@ -35,7 +35,7 @@ Google chrome is also affected by this bug, always at the startup of the applica
 
 ## Installation
 
-If you install these deb packages you will prevent any further update coming from the ubuntu team with a possible fix. Since it has been a long time with this bug around that this proposed fix worth a shot, i could never work with Geany crashing from time to time.
+The **xcb_xlib_threads_sequence_lost** bug has been around for a long time and if you work with **Text apps** like **Leafpad**, **Geany**, or any other Editor or application that you must not loose your work then you should try this fix. Unfortunately the latest Google-Chrome and Chromium-browser version **85** will crash but not the version **84**, **Firefox** works just fine.
 
 Install:
 
@@ -79,4 +79,4 @@ https://github.com/avafinger/libx11_1.6.4/releases/tag/v0.9
 
 ## disclaimer
 
-while it fix the **!xcb_xlib_threads_sequence_lost** bug, it breaks Chrome and Chromium browser. Firefox is not affected.
+while it fix the **!xcb_xlib_threads_sequence_lost** bug, it breaks Chrome and Chromium browser **version 85**. Firefox is not affected.
