@@ -14,6 +14,14 @@ The bug affects the following applications and desktops i have used so far.
 * pcmanfm
 * Google Chrome
 
+Leafpad Crash screenshot
+![Leafpad crash](https://github.com/avafinger/libx11_1.6.4/raw/master/leafpad_crash.png)
+
+
+Bug
+![Leafpad bug](https://github.com/avafinger/libx11_1.6.4/raw/master/xcb_xlib_threads_sequence_lost_bug.png)
+
+
 ## Steps to reproduce
 
 * Boot Up your PC with Ubuntu and enter the Lubuntu session.
