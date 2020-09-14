@@ -14,11 +14,13 @@ The bug affects the following applications and desktops i have used so far.
 * pcmanfm
 * Google Chrome
 
-Leafpad Crash screenshot
+* Leafpad Crash screenshot
+
 ![Leafpad crash](https://raw.githubusercontent.com/avafinger/libx11_1.6.4/libx11-1.6.4-4/leafpad_crash.png)
 
 
-Bug
+* Bug
+
 ![Leafpad bug](https://raw.githubusercontent.com/avafinger/libx11_1.6.4/libx11-1.6.4-4//xcb_xlib_threads_sequence_lost_bug.png)
 
 
