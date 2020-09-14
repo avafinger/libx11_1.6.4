@@ -1,4 +1,4 @@
-# libx11_1.6.4 fix
+# libx11_1.6.4 bug fix
 
 This is the Ubuntu 18.04 libx11_1.6.4 with the proposed Fix for the poll_for_response race condition bug.
 The bug affects the following applications and desktops i have used so far.
@@ -35,7 +35,36 @@ Install:
     sudo dpkg -i libx11-dev_1.6.4-3ubuntu0.3_amd64.deb
     
 
+## Releases
+
+version: 1.6.4-3ubuntu0.4 with latest SECURITY UPDATE
+
+https://github.com/avafinger/libx11_1.6.4/releases/tag/v0.9
+
+    libx11 (2:1.6.4-3ubuntu0.3) bionic-security; urgency=medium
+
+      * SECURITY UPDATE: integer overflow and heap overflow in XIM client
+        - debian/patches/CVE-2020-14344-1.patch: fix signed length values in
+          modules/im/ximcp/imRmAttr.c.
+        - debian/patches/CVE-2020-14344-2.patch: fix integer overflows in
+          modules/im/ximcp/imRmAttr.c.
+        - debian/patches/CVE-2020-14344-3.patch: fix more unchecked lengths in
+          modules/im/ximcp/imRmAttr.c.
+        - debian/patches/CVE-2020-14344-4.patch: zero out buffers in functions
+          in modules/im/ximcp/imDefIc.c, modules/im/ximcp/imDefIm.c.
+        - debian/patches/CVE-2020-14344-5.patch: change the data_len parameter
+          to CARD16 in modules/im/ximcp/imRmAttr.c.
+        - debian/patches/CVE-2020-14344-6.patch: fix size calculation in
+          modules/im/ximcp/imRmAttr.c.
+        - debian/patches/CVE-2020-14344-7.patch: fix input clients connecting
+          to server in modules/im/ximcp/imRmAttr.c.
+        - CVE-2020-14344
+      * SECURITY UPDATE: integer overflow and double free in locale handling
+        - debian/patches/CVE-2020-14363.patch: fix an integer overflow in
+          modules/om/generic/omGeneric.c.
+        - CVE-2020-14363
+
+
 ## disclaimer
 
-There is no garantee it will work for you as it worked for me.
-Update at your own risk.
+while it fix the **!xcb_xlib_threads_sequence_lost** bug, it breaks Chrome and Chromium browser. Firefox is not affected.
