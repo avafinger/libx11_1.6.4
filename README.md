@@ -39,10 +39,12 @@ If you install these deb packages you will prevent any further update coming fro
 
 Install:
 
-    sudo dpkg -i libx11-6_1.6.4-3ubuntu0.3_amd64.deb
-    sudo dpkg -i libx11-xcb1_1.6.4-3ubuntu0.3_amd64.deb
-    sudo dpkg -i libx11-xcb-dev_1.6.4-3ubuntu0.3_amd64.deb
-    sudo dpkg -i libx11-dev_1.6.4-3ubuntu0.3_amd64.deb
+    sudo dpkg -i libx11-6_1.6.4-3ubuntu0.4_amd64.deb
+    sudo dpkg -i libx11-xcb1_1.6.4-3ubuntu0.4_amd64.deb
+    sudo dpkg -i libx11-data_1.6.4-3ubuntu0.4_all.deb
+    sudo dpkg -i libx11-doc_1.6.4-3ubuntu0.4_all.deb
+    sudo dpkg -i libx11-xcb-dev_1.6.4-3ubuntu0.4_amd64.deb
+    sudo dpkg -i libx11-dev_1.6.4-4ubuntu0.3_amd64.deb
     
 
 ## Releases
