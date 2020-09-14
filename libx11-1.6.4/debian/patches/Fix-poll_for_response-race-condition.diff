@@ -1,0 +1,67 @@
+--- libx11-1.6.4/src/Xxcbint.h
++++ libx11-1.6.4-new/src/Xxcbint.h
+@@ -27,6 +27,7 @@
+ 	PendingRequest *pending_requests;
+ 	PendingRequest *pending_requests_tail;
+ 	xcb_generic_event_t *next_event;
++	void *next_response;    
+ 	char *real_bufmax;
+ 	char *reply_data;
+ 	int reply_length;
+--- libx11-1.6.4/src/xcb_io.c
++++ libx11-1.6.4-new/src/xcb_io.c
+@@ -205,8 +205,7 @@
+  */
+ static void widen(uint64_t *wide, unsigned int narrow)
+ {
+-	uint64_t new = (*wide & ~((uint64_t)0xFFFFFFFFUL)) | narrow;
+-	*wide = new + (((uint64_t)(new < *wide)) << 32);
++	*wide += (int32_t) (narrow - *wide);
+ }
+ 
+ /* Thread-safety rules:
+@@ -270,6 +269,7 @@
+ {
+ 	void *response;
+ 	xcb_generic_error_t *error;
++	xcb_generic_reply_t *event;
+ 	PendingRequest *req;
+ 	while(!(response = poll_for_event(dpy)) &&
+ 	      (req = dpy->xcb->pending_requests) &&
+@@ -277,11 +277,34 @@
+ 	{
+ 		uint64_t request;
+ 
+-		if(!xcb_poll_for_reply64(dpy->xcb->connection, req->sequence,
+-					 &response, &error)) {
++		/* xcb_poll_for_reply64 could not set error */
++		error = NULL;
++
++		/* return next pending response relative to req */
++		if(dpy->xcb->next_response)
++		{
++			response = dpy->xcb->next_response;
++			dpy->xcb->next_response = NULL;
++			if (((xcb_generic_reply_t*)response)->response_type == X_Error)
++			{
++				error = response;
++				response = NULL;
++			}
++		}
++		else if (!xcb_poll_for_reply64(dpy->xcb->connection, req->sequence,
++					       &response, &error)) {
+ 			/* xcb_poll_for_reply64 may have read events even if
+ 			 * there is no reply. */
+ 			response = poll_for_event(dpy);
++			break;
++		}
++
++		/* xcb_poll_for_reply64 may have read events */
++		event = poll_for_event(dpy);
++		if(event)
++		{
++			dpy->xcb->next_response = error ? error : response;
++			response = event;
+ 			break;
+ 		}
+ 
