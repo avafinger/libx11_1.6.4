@@ -15,11 +15,11 @@ The bug affects the following applications and desktops i have used so far.
 * Google Chrome
 
 Leafpad Crash screenshot
-![Leafpad crash](https://github.com/avafinger/libx11_1.6.4/libx11_1.6.4-4/raw/master/leafpad_crash.png)
+![Leafpad crash](https://github.com/avafinger/libx11_1.6.4/raw/libx11_1.6.4-4/leafpad_crash.png)
 
 
 Bug
-![Leafpad bug](https://github.com/avafinger/libx11_1.6.4/libx11_1.6.4-4/raw/master/xcb_xlib_threads_sequence_lost_bug.png)
+![Leafpad bug](https://github.com/avafinger/libx11_1.6.4/raw/libx11_1.6.4-4/xcb_xlib_threads_sequence_lost_bug.png)
 
 
 ## Steps to reproduce
