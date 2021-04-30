@@ -35,9 +35,18 @@ Google chrome is also affected by this bug, always at the startup of the applica
 
 ## Installation
 
-The **xcb_xlib_threads_sequence_lost** bug has been around for a long time and if you work with **Text apps** like **Leafpad**, **Geany**, or any other Editor or application that you must not loose your work then you should try this fix. Unfortunately the latest Google-Chrome and Chromium-browser version **85** will crash but not the version **84**, **Firefox** works just fine.
+The **xcb_xlib_threads_sequence_lost** bug has been around for a long time and if you work with **Text apps** like **Leafpad**, **Geany**, or any other Editor or application that you must not lose your work when this application crash, then you should try this fix. Unfortunately the latest Google-Chrome and Chromium-browser version **85** will crash but not the version **84**, **Firefox** works just fine.
 
-Install:
+**Update**
+
+Currently it is woking fine with (I think they fixed the issue with **xcb_xlib_threads_sequence_lost** on the browser side):
+
+* Chromium, Version 90.0.4430.72 (Official Build) Built on Ubuntu , running on Ubuntu 18.04 (64-bit)
+* Chrome, Version 90.0.4430.85 (Official Build) (64-bit)
+* FireFox, 87.0 (64-bit)
+
+
+**Install:**
 
     sudo dpkg -i libx11-6_1.6.4-3ubuntu0.4_amd64.deb
     sudo dpkg -i libx11-xcb1_1.6.4-3ubuntu0.4_amd64.deb
@@ -79,4 +88,6 @@ https://github.com/avafinger/libx11_1.6.4/releases/tag/v0.9
 
 ## disclaimer
 
-while it fix the **!xcb_xlib_threads_sequence_lost** bug, it breaks Chrome and Chromium browser **version 85**. Firefox is not affected.
+While it fix the **!xcb_xlib_threads_sequence_lost** bug, it breaks Chrome and Chromium browser **version 85**. Firefox is not affected.
+Works with latest Browser!
+
